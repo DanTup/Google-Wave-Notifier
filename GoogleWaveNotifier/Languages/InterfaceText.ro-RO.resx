@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anulaţi</value>
+  </data>
+  <data name="CheckInterval" xml:space="preserve">
+    <value>Interval de Căutare</value>
+  </data>
+  <data name="CheckIntervalDescription" xml:space="preserve">
+    <value>Introduceţi (în minute) cât de des să caute Google Wave Notifier mesaje noi.</value>
+  </data>
+  <data name="CheckIntervalWarningText" xml:space="preserve">
+    <value>Intervalul de căutare trebuie să fie 5 minute sau mai mare.</value>
+  </data>
+  <data name="CheckNow" xml:space="preserve">
+    <value>Verificaţi Acum</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Închideţi</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Ieşire</value>
+  </data>
+  <data name="GoogleAffiliationDisclaimer" xml:space="preserve">
+    <value>Google Wave Notifier nu este o aplicaţie oficială Google, şi nici nu este afiliată cu Google în vreun fel.</value>
+  </data>
+  <data name="HelpTranslate" xml:space="preserve">
+    <value>Ajutaţi la Traducere</value>
+  </data>
+  <data name="LoginDetails" xml:space="preserve">
+    <value>Detalii de Autentificare</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Autentificare eşuată</value>
+  </data>
+  <data name="LoginFailedDescription" xml:space="preserve">
+    <value>Autentificare la Google Wave nereuşită. Vă rugăm verificaţi username-ul şi parola.</value>
+  </data>
+  <data name="NewMessages" xml:space="preserve">
+    <value>Mesaje Noi în Google Wave</value>
+  </data>
+  <data name="NewMessagesDescription1" xml:space="preserve">
+    <value>{0} are 1 mesaj necitit.</value>
+  </data>
+  <data name="NewMessagesDescription2to4" xml:space="preserve">
+    <value>{0} are {1} mesaje necitite.</value>
+  </data>
+  <data name="NewMessagesDescription5plus" xml:space="preserve">
+    <value>{0} are {1} mesaje necitite.</value>
+  </data>
+  <data name="NewMessagesTooltipPlural" xml:space="preserve">
+    <value>Aveţi {0} mesaje necitite în {1} wave-uri.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleMessage" xml:space="preserve">
+    <value>Aveţi 1 mesaj necitit.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleWave" xml:space="preserve">
+    <value>Aveţi {0} mesaje necitite în 1 wave.</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Versiune Nouă pentru Google Wave Notifier</value>
+  </data>
+  <data name="NewVersionAvailableDescription" xml:space="preserve">
+    <value>Există o versiune nouă disponibilă pentru Google Wave Notifier .
+
+Versiune nouă: {0}
+Versiunea dumneavoastră: {1}
+
+Apăsaţi aici pentru a vizita pagina de download.</value>
+  </data>
+  <data name="NoNewMessagesTooltip" xml:space="preserve">
+    <value>Nu aveţi niciun mesaj necitit.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenGoogleWave" xml:space="preserve">
+    <value>Deschideţi Google Wave</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="PasswordDescription" xml:space="preserve">
+    <value>Introduceţi parola dumneavoastră Google. Aceasta va fi stocată doar pe calculatorul dumneavoastră, şi va fi trimisă la Google doar prin SSL.</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Auziţi sunetele</value>
+  </data>
+  <data name="PlaySoundsDescription" xml:space="preserve">
+    <value>Selectaţi dacă doriţi ca Google Wave Notifier să scoată sunetul Windows New Mail când găseşte mesaje noi.</value>
+  </data>
+  <data name="ReportBugOrSuggestion" xml:space="preserve">
+    <value>Raportaţi Bug-uri/ Sugestii</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="SettingsIntro" xml:space="preserve">
+    <value>Vă rugăm să configuraţi setările şi preferinţele mai jos. Vă rugăm să fiţi atent la descrierea afişată în fereastra de dedesupt când selectaţi o opţiune.</value>
+  </data>
+  <data name="SingleClickCheck" xml:space="preserve">
+    <value>Verificare la un Singur Click</value>
+  </data>
+  <data name="SingleClickCheckDescription" xml:space="preserve">
+    <value>Selectaţi dacă doriţi ca Google Wave Notifier să efectueze o verificare forţată dacă daţi click pe icoana din system tray.</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="UnableToLoadInbox" xml:space="preserve">
+    <value>Nu se poate încărca Inbox-ul</value>
+  </data>
+  <data name="UnableToLoadInboxDescription" xml:space="preserve">
+    <value>Nu se poate încărca inbox-ul Google Wave. Este posibil ca Google să fi schimbat aplicaţia web. Verificaţi dacă există versiuni noi pentru Google Wave Notifier.</value>
+  </data>
+  <data name="UnableToParseInbox" xml:space="preserve">
+    <value>Nu se poate interpreta Inbox-ul</value>
+  </data>
+  <data name="UnableToParseInboxDescription" xml:space="preserve">
+    <value>Nu se poate interpreta inbox-ul Google Wave. Este posibil ca Google să fi schimbat aplicaţia web. Verificaţi dacă există versiuni noi pentru Google Wave Notifier.</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>A avut loc o eroare necunoscută</value>
+  </data>
+  <data name="UnknownErrorDescription" xml:space="preserve">
+    <value>A avut loc o eroare necunoscută. Este posibil ca Google să fi schimbat aplicaţia web. Vă rugăm să raportaţi un bug incluzând conţinutul fişierului de eroare.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>Introduceţi username-ul dumneavoastră Google. Este partea dinaintea @googlewave.com. Nu includeţi @googlewave.com!</value>
+  </data>
+  <data name="UsernameWarningText" xml:space="preserve">
+    <value>Username-ul nu trebuie să conţină symbolul @ sau un hostname.</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Eroare de validare</value>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Sit web</value>
+  </data>
+</root>

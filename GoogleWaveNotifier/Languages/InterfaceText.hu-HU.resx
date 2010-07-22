@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>&amp;Programról</value>
+  </data>
+  <data name="BalloonTimeout" xml:space="preserve">
+    <value>A buborék értesítés időbeni hossza</value>
+  </data>
+  <data name="BalloonTimeoutDescription" xml:space="preserve">
+    <value>Adja meg, mennyi ideig (másodpercben) az értesítő buborék  továbbra is a képernyőn. Kérjük, vegye figyelembe, hogy a Windows Vista és a későbbi verziók felülírják ezt az értéket  9 másodperccel.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>&amp;Mégsem</value>
+  </data>
+  <data name="CheckInterval" xml:space="preserve">
+    <value>Ellenőrzési időköz</value>
+  </data>
+  <data name="CheckIntervalDescription" xml:space="preserve">
+    <value>Adja meg, hogy milyen gyakran (percben) keressen új üzeneteket.</value>
+  </data>
+  <data name="CheckIntervalWarningText" xml:space="preserve">
+    <value>Az ellenőrzési időköznek legalább 5 percnek kell lennie!</value>
+  </data>
+  <data name="CheckNow" xml:space="preserve">
+    <value>&amp;Ellenőrzés most!</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>&amp;Bezárás</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>&amp;Kilépés</value>
+  </data>
+  <data name="GoogleAffiliationDisclaimer" xml:space="preserve">
+    <value>Google Wave Notifier nem hivatalos Google-alkalmazás, és nem is áll kapcsolatban a Google-vel semmilyen módon.</value>
+  </data>
+  <data name="HelpTranslate" xml:space="preserve">
+    <value>Segítsen a fordításban</value>
+  </data>
+  <data name="LoginDetails" xml:space="preserve">
+    <value>Bejelentkezés részletei</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Sikertelen bejelentkezés</value>
+  </data>
+  <data name="LoginFailedDescription" xml:space="preserve">
+    <value>Nem sikerült bejelentkezni a Google Wave-be. Kérjük, ellenőrizze felhasználónevét és jelszavát.</value>
+  </data>
+  <data name="NewMessages" xml:space="preserve">
+    <value>Új üzenetek a Google Wave-ben</value>
+  </data>
+  <data name="NewMessagesDescription1" xml:space="preserve">
+    <value>Van {0} / 1 olvasatlan üzenete.</value>
+  </data>
+  <data name="NewMessagesDescription2to4" xml:space="preserve">
+    <value>{0} / {1} olvasatlan üzenet.</value>
+  </data>
+  <data name="NewMessagesDescription5plus" xml:space="preserve">
+    <value>{0} / {1} olvasatlan üzenet.</value>
+  </data>
+  <data name="NewMessagesTooltipPlural" xml:space="preserve">
+    <value>{0} olvasatlan üzenete van  {1}  Hullámban.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleMessage" xml:space="preserve">
+    <value>1 olvasatlan üzenete van.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleWave" xml:space="preserve">
+    <value>{0} olvasatlan üzenete van 1 Hullámban.</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Google Wave Notifier új verziója!</value>
+  </data>
+  <data name="NewVersionAvailableDescription" xml:space="preserve">
+    <value>Google Wave Notifier új verziója elérhető.
+
+Új verzió száma: {0}
+Az Ön verzió száma: {1}
+
+Kattintson ide a letöltési oldalhoz .</value>
+  </data>
+  <data name="NoNewMessagesTooltip" xml:space="preserve">
+    <value>Nincs olvasatlan üzenete.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="OpenGoogleWave" xml:space="preserve">
+    <value>Google &amp;Wave megnyitása</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>jelszó</value>
+  </data>
+  <data name="PasswordDescription" xml:space="preserve">
+    <value>Írja be a Google jelszót. Ezt csak a gépen tárolja, és mindig csak a Google-hoz küldi biztonságos (SSL) módon.</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Hangjelzés lejátszása</value>
+  </data>
+  <data name="PlaySoundsDescription" xml:space="preserve">
+    <value>Válassza ki, hogyha szeretné, hogy a Google Wave Notifier a "Windows Mail" hangon jelezze, ha talál új üzeneteket.</value>
+  </data>
+  <data name="PreferredBrowser" xml:space="preserve">
+    <value>Böngésző</value>
+  </data>
+  <data name="PreferredBrowserDescription" xml:space="preserve">
+    <value>Válaszd ki melyik böngészőben induljon a Wave</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="PreferredCultureDescription" xml:space="preserve">
+    <value>Válassza ki a kívánt nyelvet amellyel a Google Wave Notifier használni kívánja. A változáshoz újra kell indítani a programot.</value>
+  </data>
+  <data name="ReportBugOrSuggestion" xml:space="preserve">
+    <value>Hiba/javaslat küldése</value>
+  </data>
+  <data name="RunAtStartup" xml:space="preserve">
+    <value>Futtatás a Windows indulásakor</value>
+  </data>
+  <data name="RunAtStartupDescription" xml:space="preserve">
+    <value>Válaszd ha szeretnéd, hogy a Google Wave Notofier is elinduljon mikor a Windows indul.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="SettingsIntro" xml:space="preserve">
+    <value>Kérjük, állítsa be a tulajdonságokat. Olvassa el a leírásokat a panel alján, mielőtt kiválaszt egy opciót.</value>
+  </data>
+  <data name="SingleClickCheck" xml:space="preserve">
+    <value>Ellenőrzés egy kattintásra</value>
+  </data>
+  <data name="SingleClickCheckDescription" xml:space="preserve">
+    <value>Válassza ki, ha szeretné hogy a Google Wave Notifier keressen új üzeneteket, ha egyszer rákattint az ikonjára a tálcán.</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="UnableToLoadInbox" xml:space="preserve">
+    <value>Nem lehet a "bejövő üzenetek"-et betölteni.</value>
+  </data>
+  <data name="UnableToLoadInboxDescription" xml:space="preserve">
+    <value>Nem sikerült betölteni a Google Wave "bejövő üzenet"-eit. Lehet, hogy a Google megváltoztatta a webes alkalmazást. Kérjük ellenőrizze a Google Wave Notifier új verzióját!</value>
+  </data>
+  <data name="UnableToParseInbox" xml:space="preserve">
+    <value>Nem lehet a "bejövő üzenetek"-et értelmezni.</value>
+  </data>
+  <data name="UnableToParseInboxDescription" xml:space="preserve">
+    <value>Nem lehet a "bejövő üzenetek"-et értelmezni. Lehet, hogy a Google megváltoztatta a webes alkalmazást. Kérjük ellenőrizze a Google Wave Notifier új verzióját!</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Ismeretlen hiba lépett fel!</value>
+  </data>
+  <data name="UnknownErrorDescription" xml:space="preserve">
+    <value>Ismeretlen hiba lépett fel. Lehet a Google megváltoztatta a webes alkalmazást. Kérjük, jelentse be a hibát, a hiba naplófájl tartalmával együtt.</value>
+  </data>
+  <data name="UnknownErrorDescriptionDotNet" xml:space="preserve">
+    <value>Google Wave Notifier .NET 3.5 SP1-et igényel. Kérjük, ellenőrizze van e telepítve, és indítsa újra az alkalmazást.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Felhasználónév</value>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>Írja be a Google felhasználói nevét. Ez az a név a  @googlewave.com előtt. Nem kell a @googlewave.com!</value>
+  </data>
+  <data name="UsernameWarningText" xml:space="preserve">
+    <value>Felhasználói névnek nem kell tartalmaznia a @googlewave.com-ot!</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Érvényesítési hiba!</value>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Wave (Hullám)</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Weboldal</value>
+  </data>
+</root>

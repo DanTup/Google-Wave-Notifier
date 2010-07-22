@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>&amp;About</value>
+    <comment>Context menu text for About dialog.</comment>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+    <comment>Text for Application category in settings dialog.</comment>
+  </data>
+  <data name="BalloonTimeout" xml:space="preserve">
+    <value>Balloon Timeout</value>
+    <comment>Text for Balloon Timeout in settings dialog.</comment>
+  </data>
+  <data name="BalloonTimeoutDescription" xml:space="preserve">
+    <value>Enter how long (in seconds) the balloon notifications should remain on screen. Please note that Windows may override this setting.</value>
+    <comment>Description of Balloon Timeout in settings dialog.</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+    <comment>Text for a Cancel button.</comment>
+  </data>
+  <data name="CheckInterval" xml:space="preserve">
+    <value>Check Interval</value>
+    <comment>Text for Check Interval in settings dialog.</comment>
+  </data>
+  <data name="CheckIntervalDescription" xml:space="preserve">
+    <value>Enter how often (in minutes) Google Wave Notifier should check for new messages.</value>
+    <comment>Description of Check Interval in settings dialog.</comment>
+  </data>
+  <data name="CheckIntervalWarningText" xml:space="preserve">
+    <value>Check interval must be 5 minutes or greater.</value>
+    <comment>Warning text for invalid Check Interval.</comment>
+  </data>
+  <data name="CheckNow" xml:space="preserve">
+    <value>&amp;Check Now</value>
+    <comment>Context menu text for checking for unread messages immediately.</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>&amp;Close</value>
+    <comment>Text for a Close button.</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>E&amp;xit</value>
+    <comment>Context menu text for Exit.</comment>
+  </data>
+  <data name="GoogleAffiliationDisclaimer" xml:space="preserve">
+    <value>Google Wave Notifier is not an official Google application, nor is it affiliated with Google in any way.</value>
+    <comment>Disclaimer stating this application is in no way affiliate with Google.</comment>
+  </data>
+  <data name="HelpTranslate" xml:space="preserve">
+    <value>Help Translate</value>
+    <comment>Context menu text for launching translation page.</comment>
+  </data>
+  <data name="LoginDetails" xml:space="preserve">
+    <value>Login Details</value>
+    <comment>Text for Login Details category in settings dialog.</comment>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Login Failed</value>
+    <comment>Balloon title when login fails.</comment>
+  </data>
+  <data name="LoginFailedDescription" xml:space="preserve">
+    <value>Unable to login to Google Wave. Please check your username, password and proxy settings. See the ErrorLog for more details.</value>
+    <comment>Balloon text when login fails.</comment>
+  </data>
+  <data name="NewMessages" xml:space="preserve">
+    <value>New Messages in Google Wave</value>
+    <comment>Balloon title when there are unread messages in Google Wave.</comment>
+  </data>
+  <data name="NewMessagesDescription1" xml:space="preserve">
+    <value>{0} has 1 unread message.</value>
+    <comment>Balloon text for a wave having a single unread message.</comment>
+  </data>
+  <data name="NewMessagesDescription2to4" xml:space="preserve">
+    <value>{0} has {1} unread messages.</value>
+    <comment>Balloon text for a wave having a number of unread messages (2-4).</comment>
+  </data>
+  <data name="NewMessagesDescription5plus" xml:space="preserve">
+    <value>{0} has {1} unread messages.</value>
+    <comment>Balloon text for a wave having a number of unread messages (5 or more).</comment>
+  </data>
+  <data name="NewMessagesTooltipPlural" xml:space="preserve">
+    <value>You have {0} unread messages across {1} waves.</value>
+    <comment>Tooltip text for unread messages across multiple waves.</comment>
+  </data>
+  <data name="NewMessagesTooltipSingleMessage" xml:space="preserve">
+    <value>You have 1 unread message.</value>
+    <comment>Tooltip text for a single unread message.</comment>
+  </data>
+  <data name="NewMessagesTooltipSingleWave" xml:space="preserve">
+    <value>You have {0} unread messages in 1 wave.</value>
+    <comment>Tooltip text for unread messages in a single wave.</comment>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>New Version of Google Wave Notifier</value>
+    <comment>Balloon title when a new version is available.</comment>
+  </data>
+  <data name="NewVersionAvailableDescription" xml:space="preserve">
+    <value>There is a new version of Google Wave Notifier available.
+
+New version: {0}
+Your version: {1}
+
+Click here to visit the download page.</value>
+    <comment>Balloon text when a new version is available.</comment>
+  </data>
+  <data name="NoNewMessagesTooltip" xml:space="preserve">
+    <value>You have no unread messages.</value>
+    <comment>Tooltip text when no unread messages.</comment>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notifications</value>
+    <comment>Text for Notifications category in settings dialog.</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>&amp;OK</value>
+    <comment>Text for an OK button.</comment>
+  </data>
+  <data name="OpenGoogleWave" xml:space="preserve">
+    <value>Open Google &amp;Wave</value>
+    <comment>Context menu text for launching Google Wave.</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+    <comment>Text for Password in settings dialog.</comment>
+  </data>
+  <data name="PasswordDescription" xml:space="preserve">
+    <value>Enter your Google password. This is stored only on your machine, and only ever transmitted to Google via SSL.</value>
+    <comment>Description of Password in settings dialog.</comment>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Play Sounds</value>
+    <comment>Text for Play Sounds in settings dialog.</comment>
+  </data>
+  <data name="PlaySoundsDescription" xml:space="preserve">
+    <value>Select whether you'd like Google Wave Notifier to play the Windows New Mail sound when it finds new messages.</value>
+    <comment>Description of Play Sounds in settings dialog.</comment>
+  </data>
+  <data name="PreferredBrowser" xml:space="preserve">
+    <value>Browser</value>
+    <comment>Text for Browser in settings dialog.</comment>
+  </data>
+  <data name="PreferredBrowserDescription" xml:space="preserve">
+    <value>Select the browser you would like to use when launching wave.</value>
+    <comment>Description of Browser in settings dialog.</comment>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Language</value>
+    <comment>Text for Language in settings dialog.</comment>
+  </data>
+  <data name="PreferredCultureDescription" xml:space="preserve">
+    <value>Select the language you would like Google Wave Notifier to use. Changing this value will cause the application to restart with your new language.</value>
+    <comment>Description of Language in settings dialog.</comment>
+  </data>
+  <data name="ProxyAddress" xml:space="preserve">
+    <value>Proxy Address</value>
+    <comment>Label for Proxy Address in settings dialog.</comment>
+  </data>
+  <data name="ProxyAddressDescription" xml:space="preserve">
+    <value>If you have a proxy server, enter the address of it here (in the form http://proxyname:port/).</value>
+    <comment>Description for Proxy Address in settings dialog.</comment>
+  </data>
+  <data name="ProxyPassword" xml:space="preserve">
+    <value>Proxy Password</value>
+    <comment>Label for Proxy Password in settings dialog.</comment>
+  </data>
+  <data name="ProxyPasswordDescription" xml:space="preserve">
+    <value>If your proxy server requires a password, please enter it here.</value>
+    <comment>Description for Proxy Passwordin settings dialog.</comment>
+  </data>
+  <data name="ProxyServer" xml:space="preserve">
+    <value>Proxy Server</value>
+    <comment>Text for Proxy Server category in settings dialog.</comment>
+  </data>
+  <data name="ProxyUsername" xml:space="preserve">
+    <value>Proxy Username</value>
+    <comment>Label for Proxy Username in settings dialog.</comment>
+  </data>
+  <data name="ProxyUsernameDescription" xml:space="preserve">
+    <value>If your proxy server requires a username, please enter it here.</value>
+    <comment>Description for Proxy Username in settings dialog.</comment>
+  </data>
+  <data name="ReportBugOrSuggestion" xml:space="preserve">
+    <value>Report Bug / Suggestion</value>
+    <comment>Label for reporting bugs or suggestions.</comment>
+  </data>
+  <data name="RunAtStartup" xml:space="preserve">
+    <value>Run At Startup</value>
+    <comment>Test for Run At Startup in settings dialog.</comment>
+  </data>
+  <data name="RunAtStartupDescription" xml:space="preserve">
+    <value>Select whether you'd like Google Wave Notifier to start up when Windows starts.</value>
+    <comment>Description of Run At Startup in settings dialog.</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Context menu text for Settings.</comment>
+  </data>
+  <data name="SettingsIntro" xml:space="preserve">
+    <value>Please configure settings and preferences below. Please pay attention to the descriptions shown in the bottom pane when you select an option.</value>
+    <comment>Intro text on Settings dialog.</comment>
+  </data>
+  <data name="SingleClickCheck" xml:space="preserve">
+    <value>Single Click Check</value>
+    <comment>Text for Single Click Check in settings dialog.</comment>
+  </data>
+  <data name="SingleClickCheckDescription" xml:space="preserve">
+    <value>Select whether you'd like Google Wave Notifier to force a check for new messages when you click the icon in the system tray.</value>
+    <comment>Description of Single Click Check in settings dialog.</comment>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
+    <comment>Label alongside my twitter username.</comment>
+  </data>
+  <data name="UnableToLoadInbox" xml:space="preserve">
+    <value>Unable to load Inbox</value>
+    <comment>Balloon title when unable to load inbox.</comment>
+  </data>
+  <data name="UnableToLoadInboxDescription" xml:space="preserve">
+    <value>Unable to load your Google Wave inbox. It's possible Google have changed the web application. Please look out for a new version of Google Wave Notifier!</value>
+    <comment>Balloon text when unable to load inbox.</comment>
+  </data>
+  <data name="UnableToParseInbox" xml:space="preserve">
+    <value>Unable to parse Inbox</value>
+    <comment>Balloon title when unable to parse inbox.</comment>
+  </data>
+  <data name="UnableToParseInboxDescription" xml:space="preserve">
+    <value>Unable to parse your Google Wave inbox. It's possible Google have changed the web application. Please look out for a new version of Google Wave Notifier!</value>
+    <comment>Balloon text when unable to parse inbox.</comment>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>An unknown error has occurred</value>
+    <comment>Balloon title when an unknown error occurs.</comment>
+  </data>
+  <data name="UnknownErrorDescription" xml:space="preserve">
+    <value>An unknown error has occurred. It's possible Google have changed the web application. Please report a bug including the contents of the error log file.</value>
+    <comment>Balloon text when an unknown error occurs.</comment>
+  </data>
+  <data name="UnknownErrorDescriptionDotNet" xml:space="preserve">
+    <value>Google Wave Notifier requires .NET 3.5 SP1. Please check you have this installed and restart the application.</value>
+    <comment>Balloon text when an unknown error occurs which may be as a result of not having .NET 3.5 SP1.</comment>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+    <comment>Text for Username in settings dialog.</comment>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>Enter your Google username. This is the bit before @googlewave.com. Do not include @googlewave.com!</value>
+    <comment>Description of Username in settings dialog.</comment>
+  </data>
+  <data name="UsernameWarningText" xml:space="preserve">
+    <value>Username should not include @googlewave.com.</value>
+    <comment>Warning text for invalid Username.</comment>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Validation Error</value>
+    <comment>Text for Validation Error on settings dialog.</comment>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Wave</value>
+    <comment>Label alongside my wave address.</comment>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+    <comment>Label alongside the website address.</comment>
+  </data>
+</root>

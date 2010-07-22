@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>&amp;O programie</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>&amp;Anuluj</value>
+  </data>
+  <data name="CheckInterval" xml:space="preserve">
+    <value>Częstotliwość odświeżania</value>
+  </data>
+  <data name="CheckIntervalDescription" xml:space="preserve">
+    <value>Wpisz jak często (w minutach) Google Wave Notifier powinien sprawdzać nowe wiadomości.</value>
+  </data>
+  <data name="CheckIntervalWarningText" xml:space="preserve">
+    <value>Okres odświeżania musi wynosić 5 minut lub więcej.</value>
+  </data>
+  <data name="CheckNow" xml:space="preserve">
+    <value>&amp;Sprawdź Teraz</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>&amp;Zamknij</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Z&amp;akończ</value>
+  </data>
+  <data name="GoogleAffiliationDisclaimer" xml:space="preserve">
+    <value>Google Wave Notifier nie jest firmowane przez Google, ani powiązane z tą firmą w żaden sposób. </value>
+  </data>
+  <data name="HelpTranslate" xml:space="preserve">
+    <value>Pomóż w Tłumaczeniu!</value>
+  </data>
+  <data name="LoginDetails" xml:space="preserve">
+    <value>Szczegóły Logowania</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Logowanie Nieudane</value>
+  </data>
+  <data name="LoginFailedDescription" xml:space="preserve">
+    <value>Nie można połączyć się z Google Wave. Sprawdź nazwę użytkownika i hasło.</value>
+  </data>
+  <data name="NewMessages" xml:space="preserve">
+    <value>Nowe Wiadomości w Google Wave</value>
+  </data>
+  <data name="NewMessagesDescription1" xml:space="preserve">
+    <value>{0} has 1 nieprzeczytaną wiadomość.</value>
+  </data>
+  <data name="NewMessagesDescription2to4" xml:space="preserve">
+    <value>{0} ma {1} nieprzeczytanych wiadomości.</value>
+  </data>
+  <data name="NewMessagesDescription5plus" xml:space="preserve">
+    <value>{0} ma {1} nieprzeczytanych wiadomości.</value>
+  </data>
+  <data name="NewMessagesTooltipPlural" xml:space="preserve">
+    <value>Masz {0} nieprzeczytanych wiadomości w {1} falach.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleMessage" xml:space="preserve">
+    <value>Masz 1 nieprzeczytaną wiadomość.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleWave" xml:space="preserve">
+    <value>Masz {0} nieprzeczytanych wiadomości w 1 fali.</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Nowa Wersja Google Wave Notifier</value>
+  </data>
+  <data name="NewVersionAvailableDescription" xml:space="preserve">
+    <value>Dostępna jest nowa wersja programu Google Wave Notifier.
+
+Nowa wersja: {0}
+Aktualnie zainstalowana wersja: {1}
+
+Kliknij tutaj, aby ściągnąć najnowszą wersję.</value>
+  </data>
+  <data name="NoNewMessagesTooltip" xml:space="preserve">
+    <value>Nie masz nieprzeczytanych wiadomości.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="OpenGoogleWave" xml:space="preserve">
+    <value>Otwórz Google &amp;Wave</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="PasswordDescription" xml:space="preserve">
+    <value>Wpisz swoje hasło do serwisów Google. Jest ono przechowywane jedynie na Twojej maszynie i przesyłane wyłącznie do Google przez bezpieczny protokół.</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Odtwarzaj Dźwięki</value>
+  </data>
+  <data name="PlaySoundsDescription" xml:space="preserve">
+    <value>Zaznacz, czy chcesz odtwarzać dźwięki nowej poczty Windows, gdy pojawią się wiadomości w Google Wave.</value>
+  </data>
+  <data name="ReportBugOrSuggestion" xml:space="preserve">
+    <value>Raportuj Błąd/Wyślij Sugestię</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="SettingsIntro" xml:space="preserve">
+    <value>Skonfiguruj poniższe ustawienia. Zwróć uwagę, na opisy, wyświetlane w dolnym pasku gdy wybierzesz jedną z opcji.</value>
+  </data>
+  <data name="SingleClickCheck" xml:space="preserve">
+    <value>Sprawdzaj Wave po pojedynczym kliknięciu</value>
+  </data>
+  <data name="SingleClickCheckDescription" xml:space="preserve">
+    <value>Zaznacz, czy chcesz aby Google Wave Notifier wymuszał sprawdzenie nowych wiadomości po kliknięciu ikony w zasobniku systemowym.</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="UnableToLoadInbox" xml:space="preserve">
+    <value>Nie można załadować Skrzynki Odbiorczej.</value>
+  </data>
+  <data name="UnableToLoadInboxDescription" xml:space="preserve">
+    <value>Nie można załadować Skrzynki Odbiorczej. Prawdopodobnie Google zmieniło sposób zachowania się aplikacji, sprawdź nowe wersje Google Wave Notifier!</value>
+  </data>
+  <data name="UnableToParseInbox" xml:space="preserve">
+    <value>Nie można przetworzyć Skrzynki Odbiorczej.</value>
+  </data>
+  <data name="UnableToParseInboxDescription" xml:space="preserve">
+    <value>Nie można przetworzyć Skrzynki Odbiorczej. Prawdopodobnie Google zmieniło sposób zachowania się aplikacji, sprawdź nowe wersje Google Wave Notifier!</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Nieznany błąd</value>
+  </data>
+  <data name="UnknownErrorDescription" xml:space="preserve">
+    <value>Pojawił się nieznany błąd. Prawdopodobnie Google zmieniło sposób zachowania się aplikacji. Prosimy o zgłoszenie błędu z załączonym plikiem logów.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nazwa Użytkownika</value>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>Wpisz swoją nazwę użytkownika Google. To ciąg znaków, umieszczony przed "@googlewave.com". Nie zawieraj we wpisie @googlewave.com!</value>
+  </data>
+  <data name="UsernameWarningText" xml:space="preserve">
+    <value>Nazwa użytkownika nie powinna zawierać symbolu @ czy nazwy hosta. </value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Błąd Walidacji. </value>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Fala</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Strona WWW</value>
+  </data>
+</root>

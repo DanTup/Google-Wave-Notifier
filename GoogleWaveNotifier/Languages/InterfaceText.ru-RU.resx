@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>&amp;О программе</value>
+    <comment>Context menu text for About dialog.</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+    <comment>Text for a Cancel button.</comment>
+  </data>
+  <data name="CheckInterval" xml:space="preserve">
+    <value>Инетервал проверки</value>
+    <comment>Text for Check Interval in settings dialog.</comment>
+  </data>
+  <data name="CheckIntervalDescription" xml:space="preserve">
+    <value>Введите как часто (в минутах) Google Wave Notifier будет проверять поступление новых сообщений.</value>
+    <comment>Description of Check Interval in settings dialog.</comment>
+  </data>
+  <data name="CheckIntervalWarningText" xml:space="preserve">
+    <value>Интервал проверки должен быть 5 минут или более.</value>
+    <comment>Warning text for invalid Check Interval.</comment>
+  </data>
+  <data name="CheckNow" xml:space="preserve">
+    <value>&amp;Проверить сейчас</value>
+    <comment>Context menu text for checking for unread messages immediately.</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+    <comment>Text for a Close button.</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>&amp;Выход</value>
+    <comment>Context menu text for Exit.</comment>
+  </data>
+  <data name="GoogleAffiliationDisclaimer" xml:space="preserve">
+    <value>Google Wave Notifier не является официальным приложением Google, и никак не связан с этой компанией.</value>
+    <comment>Disclaimer stating this application is in no way affiliate with Google.</comment>
+  </data>
+  <data name="HelpTranslate" xml:space="preserve">
+    <value>Помочь перевести</value>
+  </data>
+  <data name="LoginDetails" xml:space="preserve">
+    <value>Данные для вход</value>
+    <comment>Text for Login Details category in settings dialog.</comment>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Не удалось войти</value>
+    <comment>Balloon title when login fails.</comment>
+  </data>
+  <data name="LoginFailedDescription" xml:space="preserve">
+    <value>Не удалось войти в Google Wave. Пожалуйста проверьте Ваш логин и пароль.</value>
+    <comment>Balloon text when login fails.</comment>
+  </data>
+  <data name="NewMessages" xml:space="preserve">
+    <value>Новые сообщения в Google Wave</value>
+    <comment>Balloon title when there are unread messages in Google Wave.</comment>
+  </data>
+  <data name="NewMessagesDescription1" xml:space="preserve">
+    <value>1 непрочитанное сообщение в {0}.</value>
+  </data>
+  <data name="NewMessagesDescription2to4" xml:space="preserve">
+    <value>{1} непрочитанных сообщения в {0}.</value>
+    <comment>Balloon text for a wave having a number of unread messages.</comment>
+  </data>
+  <data name="NewMessagesDescription5plus" xml:space="preserve">
+    <value>{1} непрочитанных сообщений в {0}.</value>
+  </data>
+  <data name="NewMessagesTooltipPlural" xml:space="preserve">
+    <value>У Вас {0} непрочитанных сообщений в {1} волнах.</value>
+    <comment>Tooltip text for unread messages across multiple waves.</comment>
+  </data>
+  <data name="NewMessagesTooltipSingleMessage" xml:space="preserve">
+    <value>У Вас 1 непрочитанное сообщение.</value>
+    <comment>Tooltip text for a single unread message.</comment>
+  </data>
+  <data name="NewMessagesTooltipSingleWave" xml:space="preserve">
+    <value>У Вас {0} непрочитанных сообщений в 1 волне.</value>
+    <comment>Tooltip text for unread messages in a single wave.</comment>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Доступна новая версия Google Wave Notifier</value>
+    <comment>Balloon title when a new version is available.</comment>
+  </data>
+  <data name="NewVersionAvailableDescription" xml:space="preserve">
+    <value>Доступна новая версия Google Wave Notifier.
+
+Новая версия: {0}
+Ваша версия: {1}
+
+Нажмите сюда для перехода на страницу загрузки.</value>
+    <comment>Balloon text when a new version is available.</comment>
+  </data>
+  <data name="NoNewMessagesTooltip" xml:space="preserve">
+    <value>У Вас нет непрочитанных сообщений.</value>
+    <comment>Tooltip text when no unread messages.</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>&amp;ОК</value>
+    <comment>Text for an OK button.</comment>
+  </data>
+  <data name="OpenGoogleWave" xml:space="preserve">
+    <value>Открыть Google &amp;Wave</value>
+    <comment>Context menu text for launching Google Wave.</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+    <comment>Text for Password in settings dialog.</comment>
+  </data>
+  <data name="PasswordDescription" xml:space="preserve">
+    <value>Введите пароль. Пароль хранится на вашем компьютере и предъявляется серверу Google (по защищенному каналу SSL) при подключении.</value>
+    <comment>Description of Password in settings dialog.</comment>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Воспроизводить звуки</value>
+    <comment>Text for Play Sounds in settings dialog.</comment>
+  </data>
+  <data name="PlaySoundsDescription" xml:space="preserve">
+    <value>Воспроизводить звук при поступлении нового сообщения.</value>
+    <comment>Description of Play Sounds in settings dialog.</comment>
+  </data>
+  <data name="ReportBugOrSuggestion" xml:space="preserve">
+    <value>Нашли ошибку / Ваши предложения</value>
+    <comment>Label for reporting bugs or suggestions.</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>Context menu text for Settings.</comment>
+  </data>
+  <data name="SettingsIntro" xml:space="preserve">
+    <value>Изменить настройки программы. Обратите внимания на подсказки, которые появляются в нижней панели, когда Вы выбираете опцию.</value>
+    <comment>Intro text on Settings dialog.</comment>
+  </data>
+  <data name="SingleClickCheck" xml:space="preserve">
+    <value>Проверка в один клик</value>
+    <comment>Text for Single Click Check in settings dialog.</comment>
+  </data>
+  <data name="SingleClickCheckDescription" xml:space="preserve">
+    <value>Проверять наличие новых сообщений кликом по иконке в трее.</value>
+    <comment>Description of Single Click Check in settings dialog.</comment>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter автора</value>
+    <comment>Label alongside my twitter username.</comment>
+  </data>
+  <data name="UnableToLoadInbox" xml:space="preserve">
+    <value>Не могу загрузить входящие</value>
+    <comment>Balloon title when unable to load inbox.</comment>
+  </data>
+  <data name="UnableToLoadInboxDescription" xml:space="preserve">
+    <value>Не могу загрузить входящие Google Wave. Возможно Google что-то изменил в веб приложении. Убедитесь, что Вы используете последнюю версию программы.</value>
+    <comment>Balloon text when unable to load inbox.</comment>
+  </data>
+  <data name="UnableToParseInbox" xml:space="preserve">
+    <value>Не могу проверить входящие</value>
+    <comment>Balloon title when unabe to parse inbox.</comment>
+  </data>
+  <data name="UnableToParseInboxDescription" xml:space="preserve">
+    <value>Не могу проверить входящие Google Wave. Возможно Google что-то изменил в веб приложении. Убедитесь, что Вы используете последнюю версию программы.</value>
+    <comment>Balloon text when unable to parse inbox.</comment>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Возникла неизвестная ошибка</value>
+    <comment>Balloon title when an unknown error occurs.</comment>
+  </data>
+  <data name="UnknownErrorDescription" xml:space="preserve">
+    <value>Возникла неизвестная ошибка. Возможно Google что-то изменил в веб приложении. Пожалуйста сообщите об этом, приложив содержание лога программы.</value>
+    <comment>Balloon text when an unknown error occurs.</comment>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+    <comment>Text for Username in settings dialog.</comment>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>Пожалуйста введите имя пользователя Google. Это часть до @googlewave.com.  @googlewave.com включать не надо!</value>
+    <comment>Description of Username in settings dialog.</comment>
+  </data>
+  <data name="UsernameWarningText" xml:space="preserve">
+    <value>В имени пользователя не должно быть @ или имени хоста.</value>
+    <comment>Warning text for invalid Username.</comment>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>неверные данные</value>
+    <comment>Text for Validation Error on settings dialog.</comment>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Волна</value>
+    <comment>Label alongside my wave address.</comment>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Сайт программы</value>
+    <comment>Label alongside the website address.</comment>
+  </data>
+</root>

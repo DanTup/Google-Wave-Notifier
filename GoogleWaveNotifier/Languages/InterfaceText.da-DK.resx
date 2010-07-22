@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>&amp;Om</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="BalloonTimeout" xml:space="preserve">
+    <value>Timeout for ballontips</value>
+  </data>
+  <data name="BalloonTimeoutDescription" xml:space="preserve">
+    <value>Indtast (i sekunder) hvorlænge du ønsker at ballontips vises. Bemærk at Windows Vista (og senere versioner) vil tilsidesætte din indstilling og vise ballontips i 9 sek.)</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>&amp;Annuller</value>
+  </data>
+  <data name="CheckInterval" xml:space="preserve">
+    <value>Opdaterings interval</value>
+  </data>
+  <data name="CheckIntervalDescription" xml:space="preserve">
+    <value>Indtast (i minutter) hvor ofte du ønsker at Google Wave Notifier tjekker for nye waves.</value>
+  </data>
+  <data name="CheckIntervalWarningText" xml:space="preserve">
+    <value>Interval for tjek af nye waves skal være 5 minutter eller mere.</value>
+  </data>
+  <data name="CheckNow" xml:space="preserve">
+    <value>&amp;Tjek for nye waves nu</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>&amp;Luk</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>&amp;Afslut </value>
+  </data>
+  <data name="GoogleAffiliationDisclaimer" xml:space="preserve">
+    <value>Google Wave Notifier er ikke et officielt Google program, og har intet med firmaet Google at gøre.</value>
+  </data>
+  <data name="HelpTranslate" xml:space="preserve">
+    <value>Hjælp med at oversætte</value>
+  </data>
+  <data name="LoginDetails" xml:space="preserve">
+    <value>Login detaljer</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Login mislykkedes</value>
+  </data>
+  <data name="LoginFailedDescription" xml:space="preserve">
+    <value>Kan ikke logge på Google Wave. Tjek dit brugernavn og kode.</value>
+  </data>
+  <data name="NewMessages" xml:space="preserve">
+    <value>Nye beskeder i Google Wave</value>
+  </data>
+  <data name="NewMessagesDescription1" xml:space="preserve">
+    <value>{0} har 1 ulæst besked</value>
+  </data>
+  <data name="NewMessagesDescription2to4" xml:space="preserve">
+    <value>{0} har {1} ulæste beskeder</value>
+  </data>
+  <data name="NewMessagesDescription5plus" xml:space="preserve">
+    <value>{0} har {1} ulæste beskeder</value>
+  </data>
+  <data name="NewMessagesTooltipPlural" xml:space="preserve">
+    <value>Du har {0} ulæste beskeder i {1} waves</value>
+  </data>
+  <data name="NewMessagesTooltipSingleMessage" xml:space="preserve">
+    <value>Du har 1 ulæst besked.</value>
+  </data>
+  <data name="NewMessagesTooltipSingleWave" xml:space="preserve">
+    <value>Du har {0} ulæste beskeder i 1 wave</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Ny version af Google Wave Notifier</value>
+  </data>
+  <data name="NewVersionAvailableDescription" xml:space="preserve">
+    <value>Der findes en ny version af Google Wave Notifier.
+
+Ny version: {0}
+Din version {1}
+
+Klik her for at gå til downloadsiden.</value>
+  </data>
+  <data name="NoNewMessagesTooltip" xml:space="preserve">
+    <value>Du har ingen nye beskeder</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notifikationer</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="OpenGoogleWave" xml:space="preserve">
+    <value>Åbn Google &amp;Wave</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Kodeord</value>
+  </data>
+  <data name="PasswordDescription" xml:space="preserve">
+    <value>Indtast dit Google kodeord. Dette gemmes udelukkende på din egen maskine, og sendes til Google via SSL.</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Afspil lyde</value>
+  </data>
+  <data name="PlaySoundsDescription" xml:space="preserve">
+    <value>Vælg om du ønsker at Google Wave Notifier skal afspille Windows' standardlyd for modtagelse af ny post, når der findes nye beskeder.</value>
+  </data>
+  <data name="PreferredBrowser" xml:space="preserve">
+    <value>Internetbrowser</value>
+  </data>
+  <data name="PreferredBrowserDescription" xml:space="preserve">
+    <value>Vælg hvilken internetbrowser du ønsker at starte for at vise Google Wave.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Sprog</value>
+  </data>
+  <data name="PreferredCultureDescription" xml:space="preserve">
+    <value>Vælg det sprog du ønsker at Google Wave Notifier skal benytte. Hvis du ændrer sprog genstartes programmet med det nye sprog.</value>
+  </data>
+  <data name="ProxyAddress" xml:space="preserve">
+    <value>Proxy adresse</value>
+  </data>
+  <data name="ProxyAddressDescription" xml:space="preserve">
+    <value>Hvis du bruger en proxyserver, skal du indskrive adressen her (skrives som http://proxyname:port/)</value>
+  </data>
+  <data name="ProxyPassword" xml:space="preserve">
+    <value>Proxy adgangskode</value>
+  </data>
+  <data name="ProxyPasswordDescription" xml:space="preserve">
+    <value>Hvis din proxyserver kræver en adgangskode, så skriv den her</value>
+  </data>
+  <data name="ProxyServer" xml:space="preserve">
+    <value>Proxy server</value>
+  </data>
+  <data name="ProxyUsername" xml:space="preserve">
+    <value>Proxy brugernavn</value>
+  </data>
+  <data name="ProxyUsernameDescription" xml:space="preserve">
+    <value>Hvis din proxyserver kræver et brugernavn så skriv det her</value>
+  </data>
+  <data name="ReportBugOrSuggestion" xml:space="preserve">
+    <value>Rapporter fejl / forslag</value>
+  </data>
+  <data name="RunAtStartup" xml:space="preserve">
+    <value>Kør ved opstart</value>
+  </data>
+  <data name="RunAtStartupDescription" xml:space="preserve">
+    <value>Vælg om du ønsker at Google Wave Notifier skal starte automatisk når du logger på Windows.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="SettingsIntro" xml:space="preserve">
+    <value>Venligst vælg indstillinger og tilpasninger herunder. Bemærk at der vises yderligere info i feltet nederst i programvinduet når du har markeret et valg.</value>
+  </data>
+  <data name="SingleClickCheck" xml:space="preserve">
+    <value>Klik én gang for at tjekke for nye beskeder </value>
+  </data>
+  <data name="SingleClickCheckDescription" xml:space="preserve">
+    <value>Vælg om du ønsker at Google Wave Notifier skal tjekke for nye beskeder når du klikker på ikonet i systembaken.</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitternavn</value>
+  </data>
+  <data name="UnableToLoadInbox" xml:space="preserve">
+    <value>Kan ikke hente indbakken</value>
+  </data>
+  <data name="UnableToLoadInboxDescription" xml:space="preserve">
+    <value>Kan ikke hente din Google Wave indbakke. Muligvis skyldes det at Google har ændret i deres programmering. Hold øje med en ny version af Google Wave Notifier!</value>
+  </data>
+  <data name="UnableToParseInbox" xml:space="preserve">
+    <value>Kan ikke indlæse indbakken</value>
+  </data>
+  <data name="UnableToParseInboxDescription" xml:space="preserve">
+    <value>Kan ikke indlæse din Google Wave indbakke. Muligvis skyldes det at Google har ændret i deres programmering. Hold øje med en ny version af Google Wave Notifier!</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>En ukendt fejl er opstået.</value>
+  </data>
+  <data name="UnknownErrorDescription" xml:space="preserve">
+    <value>En ukendt fejl er opstået. Muligvis skyldes det at Google har ændret i deres programmering. Hold øje med en ny version af Google Wave Notifier!</value>
+  </data>
+  <data name="UnknownErrorDescriptionDotNet" xml:space="preserve">
+    <value>Google Wave Notifier skal bruge .NET 3.5 SP1. Tjek om du har denne version installeret, og genstart programmet. </value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>Indskriv dit Google brugernavn. Det er det som står før @googlewave.com (Men undlad at skrive @googlewave.com)</value>
+  </data>
+  <data name="UsernameWarningText" xml:space="preserve">
+    <value>Dit brugernavn må ikke indeholde @googlewave.com.</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Valideringsfejl</value>
+  </data>
+  <data name="Wave" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Hjemmeside</value>
+  </data>
+</root>
