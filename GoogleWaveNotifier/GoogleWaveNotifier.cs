@@ -27,6 +27,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
 using GoogleWaveNotifier.Properties;
+using System.Net.NetworkInformation;
 
 namespace GoogleWaveNotifier
 {
@@ -346,6 +347,10 @@ namespace GoogleWaveNotifier
 
 		void CheckWavesBackgroundThread(object sender, DoWorkEventArgs e)
 		{
+			// Bail out if there's no network connection
+			if (!NetworkInterface.GetIsNetworkAvailable())
+				return;
+
 			var waveClient = new GoogleWaveProxy(Enc.Decrypt(Settings.Default.UsernameEnc), Enc.Decrypt(Settings.Default.PasswordEnc));
 
 			// Try to get the inbox
