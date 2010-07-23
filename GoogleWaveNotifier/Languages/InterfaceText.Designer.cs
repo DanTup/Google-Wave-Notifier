@@ -642,6 +642,24 @@ namespace GoogleWaveNotifier.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Wave URL.
+        /// </summary>
+        internal static string WaveUrl {
+            get {
+                return ResourceManager.GetString("WaveUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the URLto use when launching Wave. This allows you to configure the visible panels, eg. to minimise nav and contact lists, you can use http://wave.google.com/#minimized:nav,minimized:contact.
+        /// </summary>
+        internal static string WaveUrlDescription {
+            get {
+                return ResourceManager.GetString("WaveUrlDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Website.
         /// </summary>
         internal static string Website {

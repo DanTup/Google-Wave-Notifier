@@ -178,5 +178,17 @@ namespace GoogleWaveNotifier.Properties {
                 this["ProxyPasswordEnc"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://wave.google.com/")]
+        public string WaveUrl {
+            get {
+                return ((string)(this["WaveUrl"]));
+            }
+            set {
+                this["WaveUrl"] = value;
+            }
+        }
     }
 }

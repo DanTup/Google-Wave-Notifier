@@ -304,7 +304,7 @@ namespace GoogleWaveNotifier
 		/// </summary>
 		void LaunchWave()
 		{
-			WebBrowser.Launch("http://wave.google.com/", true);
+			WebBrowser.Launch(Settings.Default.WaveUrl, true);
 		}
 
 		/// <summary>

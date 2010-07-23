@@ -55,6 +55,7 @@ namespace GoogleWaveNotifier
 			settings.Username = Enc.Decrypt(Settings.Default.UsernameEnc);
 			settings.Password = Enc.Decrypt(Settings.Default.PasswordEnc);
 			settings.CheckIntervalMinutes = Settings.Default.CheckIntervalMinutes;
+			settings.WaveUrl = Settings.Default.WaveUrl;
 			settings.PlaySounds = Settings.Default.PlaySounds;
 			settings.SingleClickForcesCheck = Settings.Default.SingleClickForcesCheck;
 			settings.BalloonTimeout = Settings.Default.BalloonTimeoutSeconds;
@@ -84,6 +85,7 @@ namespace GoogleWaveNotifier
 			Settings.Default.UsernameEnc = Enc.Encrypt(this.Username);
 			Settings.Default.PasswordEnc = Enc.Encrypt(this.Password);
 			Settings.Default.CheckIntervalMinutes = this.CheckIntervalMinutes;
+			Settings.Default.WaveUrl = this.WaveUrl;
 			Settings.Default.PlaySounds = this.PlaySounds;
 			Settings.Default.SingleClickForcesCheck = this.SingleClickForcesCheck;
 			Settings.Default.BalloonTimeoutSeconds = this.BalloonTimeout;
@@ -137,6 +139,12 @@ namespace GoogleWaveNotifier
 		[ResourceDescription("CheckIntervalDescription")]
 		[DefaultValue(15)]
 		public int CheckIntervalMinutes { get; set; }
+
+		[ResourceCategory("Notifications")]
+		[ResourceDisplayName("WaveUrl")]
+		[ResourceDescription("WaveUrlDescription")]
+		[DefaultValue("http://wave.google.com/")]
+		public string WaveUrl { get; set; }
 
 		[ResourceCategory("Notifications")]
 		[ResourceDisplayName("PlaySounds")]

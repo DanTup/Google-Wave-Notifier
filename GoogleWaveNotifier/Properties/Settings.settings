@@ -41,5 +41,8 @@
     <Setting Name="ProxyPasswordEnc" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="WaveUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://wave.google.com/</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

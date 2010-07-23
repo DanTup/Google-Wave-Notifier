@@ -378,6 +378,14 @@ Click here to visit the download page.</value>
     <value>Wave</value>
     <comment>Label alongside my wave address.</comment>
   </data>
+  <data name="WaveUrl" xml:space="preserve">
+    <value>Wave URL</value>
+    <comment>Text for Wave URL in settings dialog.</comment>
+  </data>
+  <data name="WaveUrlDescription" xml:space="preserve">
+    <value>Enter the URLto use when launching Wave. This allows you to configure the visible panels, eg. to minimise nav and contact lists, you can use http://wave.google.com/#minimized:nav,minimized:contact</value>
+    <comment>Description of Wave URL in settings dialog.</comment>
+  </data>
   <data name="Website" xml:space="preserve">
     <value>Website</value>
     <comment>Label alongside the website address.</comment>
