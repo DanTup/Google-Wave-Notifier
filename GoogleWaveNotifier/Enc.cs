@@ -13,7 +13,7 @@ namespace GoogleWaveNotifier
 	static class Enc
 	{
 		/// <summary>
-		/// Encryption key. This can be changed, but will break backwards compatibility with previously created config files.
+		/// Encryption key. This can be changed, but will break backwards compatibility with previously created configuration files.
 		/// </summary>
 		static readonly byte[] sKey = Convert.FromBase64String("xRYtpojf0oo=");
 
