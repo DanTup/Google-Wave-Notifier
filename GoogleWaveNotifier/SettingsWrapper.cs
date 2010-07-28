@@ -107,7 +107,7 @@ namespace GoogleWaveNotifier
 
 		public bool IsValid(out string error)
 		{
-			if (this.CheckIntervalMinutes < 5)
+			if (this.CheckIntervalMinutes < 1)
 			{
 				error = Languages.InterfaceText.CheckIntervalWarningText;
 				return false;
