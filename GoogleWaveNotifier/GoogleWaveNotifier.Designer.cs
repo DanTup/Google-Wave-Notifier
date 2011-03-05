@@ -249,11 +249,11 @@
 			this.label7.AutoSize = true;
 			this.label7.BackColor = System.Drawing.Color.Transparent;
 			this.label7.ForeColor = System.Drawing.Color.Black;
-			this.label7.Location = new System.Drawing.Point(134, 111);
+			this.label7.Location = new System.Drawing.Point(195, 111);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(169, 13);
+			this.label7.Size = new System.Drawing.Size(108, 13);
 			this.label7.TabIndex = 9;
-			this.label7.Text = "danny.tuppeny@googlewave.com";
+			this.label7.Text = "danny@tuppeny.com";
 			this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
 			// lblClose
@@ -308,8 +308,8 @@
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Google Wave Notifier";
 			this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
-			this.Load += new System.EventHandler(this.GoogleWaveNotifier_Load);
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GoogleWaveNotifier_FormClosing);
+			this.Load += new System.EventHandler(this.GoogleWaveNotifier_Load);
 			this.cmSystray.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();

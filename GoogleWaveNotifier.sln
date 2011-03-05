@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleWaveNotifier", "GoogleWaveNotifier\GoogleWaveNotifier.csproj", "{7F322BEC-02D9-4F63-83D4-91E67B821EC7}"
 EndProject
 Global
